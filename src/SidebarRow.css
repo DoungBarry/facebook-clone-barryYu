@@ -1,0 +1,40 @@
+.sidebarRow {
+display: flex;
+
+align-items: center;
+
+cursor: pointer;
+
+padding :10px;
+}
+
+.sidebarRow :hover {
+
+background-color: hotpink;
+
+
+border-radius: 10px;
+
+}
+
+
+.sidebarRow>h4{
+
+margin-left: 20px;
+
+font-weight: 600;
+
+
+}
+
+
+/* 針對所有icon一次改變color */
+
+.sidebarRow > .MuiSvgIcon-root {
+
+color : blue;
+font-size: xx-large;
+
+}
+
+

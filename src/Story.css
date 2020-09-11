@@ -1,0 +1,45 @@
+.story {
+  position: relative ,;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 200px;
+  box-shadow: 0px 5px 17px -7px rgba(0 , 0 ,0, 0.75);
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: transform 100ms ease-in;
+  cursor:pointer;
+}
+
+/* position:relative  參數代表距離
+
+top:40px is mean space have 40 px ; */
+
+
+
+/* transition: transform 功能： 基礎動畫需要觸發
+  Ａnimation : 進入頁面可直接運行 ,操作更多細節
+  Ｔransform : 操作html 元素 . 可在animation 使用
+*/
+
+.story:hover{
+
+transform:scale(1.07) ; 
+
+
+}
+
+.story_avatar {
+margin: 10px;
+border:5px solid #2e81f4
+}
+
+
+.story >h4 {
+position: absolute;
+bottom: 20px;
+left: 20px;
+color:white;
+
+}
