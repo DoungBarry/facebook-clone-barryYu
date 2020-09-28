@@ -1,7 +1,6 @@
 import React from "react";
 import "./Post.css";
 import { Avatar } from "@material-ui/core";
-
 //這裡是後續要在post_option 使用的icon 組建
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
 import ThumbDownIcon from "@material-ui/icons/ThumbDown";
@@ -9,7 +8,7 @@ import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 import NearMeIcon from "@material-ui/icons/NearMe";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-function Post(profilePic, image, username, timestamp, message) {
+function Post({ profilePic, image, username, timestamp, message }) {
   return (
     <div className="post">
       <div className="post_top">
